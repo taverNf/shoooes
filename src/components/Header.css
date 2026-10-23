@@ -1,0 +1,114 @@
+#header {
+  width: 100%;
+  min-height: 10vh;
+  padding: 1rem 3rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo,
+#logo > * {
+  display: flex;
+
+  font-family: 'Boldonse', Anton, Impact;
+  font-size: 1.75rem;
+
+  color: #333;
+
+  cursor: pointer;
+
+  & #color1 {
+    color: #6b3d30;
+  }
+
+  & #color2 {
+    color: #ad5137;
+  }
+
+  & #color3 {
+    color: #e7623e;
+  }
+}
+
+#nav {
+  display: flex;
+  gap: 1rem;
+
+  & * {
+    font-size: 1.125rem;
+  }
+}
+
+#searchBox {
+  display: flex;
+
+  border: #333 2px solid;
+  border-radius: 0.5rem;
+
+  overflow: hidden;
+  transition: border-color 0.5s;
+
+  & input {
+    padding: 0.5rem 0.75rem;
+    border: none;
+    outline: none;
+
+    &::placeholder {
+      color: #777;
+      transition: color 0.5s;
+    }
+  }
+
+  &:hover {
+    border-color: #000;
+
+    & button {
+      background-color: #000;
+    }
+
+    & input::placeholder {
+      color: #aaa;
+    }
+  }
+
+  &:has(input:focus) {
+    border-color: #000;
+
+    & button {
+      background-color: #000;
+    }
+
+    & input::placeholder {
+      color: #aaa;
+    }
+  }
+}
+
+button {
+  padding: 0 16px;
+
+  font-weight: 600;
+
+  background-color: #333;
+  color: #fff;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  transition: background-color 0.5s;
+
+  &:hover {
+    background-color: #000;
+  }
+}
+
+#buttonBox {
+  display: flex;
+  gap: 1rem;
+
+  & button {
+    border-radius: 0.5rem;
+  }
+}
