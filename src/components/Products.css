@@ -1,6 +1,14 @@
-ul{
+section {
   margin: 5rem auto;
   width: 90%;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul{
+  margin-top: 2rem;
 
   display: flex;
   flex-wrap: wrap;

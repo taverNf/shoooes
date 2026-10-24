@@ -4,10 +4,16 @@ import './App.css'
 import Products from './components/Products'
 
 function App() {
+  const [searchFilter, setSearchFilter] = useState('')
+
+  function handleSearch(search) {
+    setSearchFilter(search)
+  }
+
   return (
     <>
-      <Header />
-      <Products />
+      <Header onSearch={handleSearch} />
+      <Products searchFilter={searchFilter} />
     </>
   )
 }

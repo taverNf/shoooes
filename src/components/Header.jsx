@@ -1,6 +1,14 @@
+import { useState } from 'react'
 import './Header.css'
 
-export default function Header() {
+export default function Header({ onSearch }) {
+  const [search, setSearch] = useState('')
+
+  function handleClearSearch() {
+    setSearch('')
+    onSearch('')
+  }
+
   return (
     <header id="header">
       <h3 id="logo">
@@ -10,9 +18,10 @@ export default function Header() {
       </h3>
 
       <nav id="nav">
+        {search && <button id="clearBtn" onClick={handleClearSearch}>Limpar</button>}
         <div id="searchBox">
-          <input type="text" placeholder="Pesquise alguma coisa" />
-          <button>&gt;</button>
+          <input type="text" placeholder="Pesquise alguma coisa" value={search} onChange={(e) => setSearch(e.target.value)} />
+          <button onClick={() => onSearch(search)}>&gt;</button>
         </div>
 
         <div id="buttonBox">

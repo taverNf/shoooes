@@ -50,7 +50,7 @@
   display: flex;
   gap: .5rem;
 
-  & #price, #seeMore {
+  & #price, #seeMore, #unavailable {
     height: 3rem;
     font-size: 1rem;
     border-radius: .5rem;
@@ -58,7 +58,11 @@
     transition: width .5s, font-size .5s, font-weight .5s;
   }
 
-  & #price {
+  & #unavailable {
+    width: 100%;
+  }
+
+  & .outlined {
     width: 45%;
 
     display: flex;
