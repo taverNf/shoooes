@@ -1,4 +1,4 @@
-#card{
+#card {
   width: 300px;
   height: auto;
   padding: 1rem;
@@ -11,51 +11,59 @@
   border-radius: 1.5rem;
 }
 
-#productImg{
+#productImg {
   width: 100%;
   height: auto;
   aspect-ratio: 1;
   object-fit: cover;
 
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
-#productDetails{
+#productDetails {
   width: 100%;
   height: 100%;
 
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 1rem;
 }
 
-#productTitle{
-  padding: 0 .25rem;
-  line-height: 1;
+#productTitle {
+  padding: 0 0.25rem;
+  line-height: 1.1;
 
   & #brand {
     color: #444;
     font-weight: 600;
+    font-size: 1.1rem;
   }
 
   & #model {
     color: #333;
     font-weight: 700;
+    font-size: 1.5rem;
   }
 }
 
-#productActions{
+#productActions {
   width: 100%;
 
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
 
-  & #price, #seeMore, #unavailable {
+  & #price,
+  #seeMore,
+  #unavailable {
     height: 3rem;
     font-size: 1rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 
-    transition: width .5s, font-size .5s, font-weight .5s;
+    transition:
+      width 0.5s,
+      font-size 0.5s,
+      font-weight 0.5s;
   }
 
   & #unavailable {
@@ -68,17 +76,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
+    text-align: center;
+
     color: #555;
     border: #666 2px solid;
   }
 
+  & .sale {
+    color: #e7623e;
+    border-color: #e7623e;
+  }
+
   & #seeMore {
     width: 55%;
+    padding: 0 16px;
+
+    font-weight: 600;
+
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+    transition: background-color 0.5s;
+
+    &:hover {
+      background-color: #000;
+    }
   }
 
   &:has(#seeMore:hover) {
-
     & #seeMore {
       width: 60%;
       font-weight: 900;
@@ -86,7 +115,7 @@
 
     & #price {
       width: 40%;
-      font-size: .95rem;
+      font-size: 0.95rem;
     }
   }
 }

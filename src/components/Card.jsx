@@ -1,7 +1,9 @@
 import './Card.css'
 
-export default function Card({ brand, name, price, isInStock, image }) {
-  const priceFormatado = price.toString().replace('.', ',')
+export default function Card({ brand, name, price, salePrice, isInStock, image }) {
+  const priceFormatado = salePrice
+    ? salePrice.toString().replace('.', ',')
+    : price.toString().replace('.', ',')
 
   return (
     <div id="card">
@@ -21,7 +23,7 @@ export default function Card({ brand, name, price, isInStock, image }) {
         <div id="productActions">
           {isInStock && (
             <>
-              <p id="price" className="outlined">R$ {priceFormatado}</p>
+              <p id="price" className={salePrice ? 'outlined sale' : 'outlined'}>R$ {priceFormatado}</p>
               <button id="seeMore">Ver Detalhes</button>
             </>
           )}
