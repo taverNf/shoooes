@@ -1,31 +1,31 @@
 import './Card.css'
 
-export default function Card({ marca, modelo, preco, em_estoque, imagem_url }) {
-  const precoFormatado = preco.toString().replace('.', ',')
+export default function Card({ brand, name, price, isInStock, image }) {
+  const priceFormatado = price.toString().replace('.', ',')
 
   return (
     <div id="card">
       <img
-        src={imagem_url}
-        alt={`Imagem do modelo ${modelo}`}
+        src={image}
+        alt={`Imagem do name ${name}`}
         id="productImg"
         lazyloading
       />
 
       <div id="productDetails">
         <div id="productTitle">
-          <h3 id="brand">{marca}</h3>
-          <h1 id="model">{modelo}</h1>
+          <h3 id="brand">{brand}</h3>
+          <h1 id="model">{name}</h1>
         </div>
 
         <div id="productActions">
-          {em_estoque && (
+          {isInStock && (
             <>
-              <p id="price" className="outlined">R$ {precoFormatado}</p>
+              <p id="price" className="outlined">R$ {priceFormatado}</p>
               <button id="seeMore">Ver Detalhes</button>
             </>
           )}
-          {!em_estoque && <p id="unavailable" className="outlined">Produto sem estoque</p>}
+          {!isInStock && <p id="unavailable" className="outlined">Produto sem estoque</p>}
         </div>
       </div>
     </div>

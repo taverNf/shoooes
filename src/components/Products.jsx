@@ -6,8 +6,8 @@ export default function Products({ searchFilter }) {
   const FILTERED_PRODUCTS = PRODUCTS_DATA.filter((product) => {
     if (!searchFilter) {return product}
     const isFilteredProduct =
-      product.modelo.toLowerCase().includes(searchFilter.toLowerCase().trim()) ||
-      product.marca.toLowerCase().includes(searchFilter.toLowerCase().trim())
+      product.name.toLowerCase().includes(searchFilter.toLowerCase().trim()) ||
+      product.brand.toLowerCase().includes(searchFilter.toLowerCase().trim())
     return isFilteredProduct
   })
 
