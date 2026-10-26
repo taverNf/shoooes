@@ -8,7 +8,7 @@ export const PRODUCTS_DATA = [
     price: 799.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Nike%0AAir+Force+1+07',
+      'https://juicysneakers.com.br/cdn/shop/files/air-force-1-white-1.webp?v=1745186493',
     colors: ['white', 'black'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['classic', 'leather', 'low-top'],
@@ -26,7 +26,7 @@ export const PRODUCTS_DATA = [
     price: 499.99,
     salePrice: 399.99,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Nike%0ACourt+Vision+Low',
+      'https://cadiles.vtexassets.com/arquivos/ids/194074-800-auto?v=638365133447700000&width=800&height=auto&aspect=true',
     colors: ['white', 'black'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['everyday', 'low-top', 'basketball-inspired'],
@@ -44,7 +44,7 @@ export const PRODUCTS_DATA = [
     price: 799.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Nike%0ADunk+Low+Retro',
+      'https://juicysneakers.com.br/cdn/shop/files/nike-dunk-low-world-champ-1.webp?v=1744948200',
     colors: ['white', 'black', 'grey'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['skate', 'retro', 'low-top'],
@@ -62,7 +62,7 @@ export const PRODUCTS_DATA = [
     price: 999.99,
     salePrice: 849.99,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Nike%0AAir+Max+90',
+      'https://static.nike.com/a/images/w_1280,q_auto,f_auto/c93ab9fe-80ef-47bf-89b8-5610a9482c9a/air-max-90-x-wagyu-black-and-anthracite-ir1979-010-release-date.jpg',
     colors: ['white', 'red', 'grey'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['air max', 'retro', 'cushioned'],
@@ -80,7 +80,7 @@ export const PRODUCTS_DATA = [
     price: 899.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Nike%0APegasus+41',
+      'https://static.nike.com/a/images/t_default/887859e5-9b50-4c19-a9bb-733f55f88cb2/AIR+ZOOM+PEGASUS+41.png',
     colors: ['black', 'white', 'blue'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['daily trainer', 'cushioned', 'road running'],
@@ -98,7 +98,7 @@ export const PRODUCTS_DATA = [
     price: 1299.99,
     salePrice: 1099.99,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Nike%0AInvincible+3',
+      'https://cdn.runfree.run/images/products/97/1575/97_255930_1675167025945.png',
     colors: ['pink', 'white'],
     sizes: [34, 35, 36, 37, 38, 39, 40],
     tags: ['max cushion', 'recovery', 'road running'],
@@ -116,7 +116,7 @@ export const PRODUCTS_DATA = [
     price: 1199.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Nike%0ALeBron+21',
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F73914%2Fnike-lebron-21-abalone.jpg&w=3840&q=100',
     colors: ['black', 'gold'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['lebron', 'cushioned', 'indoor'],
@@ -133,7 +133,8 @@ export const PRODUCTS_DATA = [
     gender: 'male',
     price: 1099.99,
     salePrice: 899.99,
-    image: 'https://placehold.co/600x600/b45309/ffffff/png?text=Nike%0AKD17',
+    image:
+      'https://sportness.com.br/cdn/shop/files/HF4083-901_BL1.png?v=1719336172&width=2048',
     colors: ['blue', 'orange'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['kd', 'lightweight', 'court'],
@@ -150,7 +151,8 @@ export const PRODUCTS_DATA = [
     gender: 'unisex',
     price: 699.99,
     salePrice: 599.99,
-    image: 'https://placehold.co/600x600/b45309/ffffff/png?text=Nike%0AJa+1',
+    image:
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F292804%2Fnike-ja-1-day-one.jpg&w=3840&q=100',
     colors: ['black', 'green'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['ja morant', 'grip', 'guard'],
@@ -168,7 +170,7 @@ export const PRODUCTS_DATA = [
     price: 499.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Nike%0AGiannis+Immortality+4',
+      'https://static.nike.com/a/images/t_default/f3a22e5e-c80b-485f-b6e4-3e6665fa94bd/GIANNIS+IMMORTALITY+4+%28GS%29.png',
     colors: ['white', 'black'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['budget', 'court', 'durable'],
@@ -186,7 +188,7 @@ export const PRODUCTS_DATA = [
     price: 599.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Adidas%0AStan+Smith',
+      'https://newcop.com/cdn/shop/files/newcop-adidas-stan-smith-lux-white-green-zapatillas-1.png?height=600&v=1780227666',
     colors: ['white', 'green'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['tennis', 'classic', 'leather'],
@@ -204,7 +206,7 @@ export const PRODUCTS_DATA = [
     price: 399.99,
     salePrice: 329.99,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Adidas%0AGrand+Court+2.0',
+      'https://assets.footlocker.com/is/image/FLDM/KJ4370_03?$tile500jpg$=true&fmt=png-alpha',
     colors: ['white', 'black'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['everyday', 'court style', 'low-top'],
@@ -222,7 +224,7 @@ export const PRODUCTS_DATA = [
     price: 799.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Adidas%0ASamba+OG',
+      'https://juicysneakers.com.br/cdn/shop/files/tenis-adidas-samba-og-wonder-white-shadow-red-vinho_5.webp?v=1782916079',
     colors: ['black', 'white', 'gum'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['terrace', 'retro', 'suede'],
@@ -240,7 +242,7 @@ export const PRODUCTS_DATA = [
     price: 699.99,
     salePrice: 599.99,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Adidas%0ACampus+00s',
+      'https://juicysneakers.com.br/cdn/shop/files/adidas-campus-00s-wonder-white-1.webp?v=1745376797',
     colors: ['grey', 'green', 'pink'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['suede', 'retro', 'skate'],
@@ -251,14 +253,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 15,
-    name: 'Ultraboost Light',
+    name: 'Adizero Evo SL',
     brand: 'Adidas',
     category: 'running',
     gender: 'male',
     price: 1299.99,
     salePrice: 999.99,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Adidas%0AUltraboost+Light',
+      'https://juicysneakers.com.br/cdn/shop/files/adidas-adizero-evo-sl-black-white_4.webp?v=1763721276',
     colors: ['black', 'white'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['boost', 'cushioned', 'road running'],
@@ -276,7 +278,7 @@ export const PRODUCTS_DATA = [
     price: 999.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Adidas%0AAdizero+Boston+12',
+      'https://prrunandwalk.com/cdn/shop/files/JI4476_02_1400x.webp?v=1736176491',
     colors: ['white', 'pink'],
     sizes: [34, 35, 36, 37, 38, 39, 40],
     tags: ['tempo', 'lightweight', 'road running'],
@@ -287,14 +289,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 17,
-    name: 'Harden Vol. 8',
+    name: 'Harden Vol. 9',
     brand: 'Adidas',
     category: 'basketball',
     gender: 'male',
     price: 799.99,
     salePrice: 649.99,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Adidas%0AHarden+Vol.+8',
+      'https://www.sneakerjagers.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F65226%2Fadidas-harden-volume-9-uno.jpg&w=3840&q=75',
     colors: ['black', 'white'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['james harden', 'guard', 'court'],
@@ -312,7 +314,7 @@ export const PRODUCTS_DATA = [
     price: 699.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Adidas%0ADame+9',
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F74967%2Fbstn-x-fcbb-x-adidas-sm-dame-9-black.jpg&w=3840&q=100',
     colors: ['black', 'red'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['damian lillard', 'guard', 'court'],
@@ -330,7 +332,7 @@ export const PRODUCTS_DATA = [
     price: 699.99,
     salePrice: 559.99,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Adidas%0ATrae+Young+3',
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F337435%2Fadidas-trae-young-3-vivid-red.jpg&w=3840&q=100',
     colors: ['white', 'blue'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['trae young', 'guard', 'lightweight'],
@@ -341,14 +343,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 20,
-    name: 'Anthony Edwards 1',
+    name: 'Anthony Edwards 2',
     brand: 'Adidas',
     category: 'basketball',
     gender: 'male',
     price: 599.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Adidas%0AAnthony+Edwards+1',
+      'https://www.sneakerjagers.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F430386%2Fadidas-anthony-edwards-2-tie-dye.jpg&w=3840&q=100',
     colors: ['black', 'orange'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['anthony edwards', 'wing', 'court'],
@@ -359,14 +361,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 21,
-    name: 'Smash v2',
+    name: 'Club 2',
     brand: 'Puma',
     category: 'casual',
     gender: 'unisex',
     price: 349.99,
     salePrice: 279.99,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Puma%0ASmash+v2',
+      'https://sportime.cdn.magazord.com.br/img/2026/07/produto/124520/pum-397444-pum-397444-07-side-view-01.jpg?ims=fit-in/600x600/filters:fill(white)',
     colors: ['white', 'black'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['everyday', 'low-top', 'budget'],
@@ -377,14 +379,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 22,
-    name: 'Carina 2.0',
+    name: 'Carina 3.0',
     brand: 'Puma',
     category: 'casual',
     gender: 'female',
     price: 399.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Puma%0ACarina+2.0',
+      'https://ebbies.co.za/wp-content/uploads/2026/09/puma__pum-407734-01__sideview01-570x570.png',
     colors: ['white', 'pink'],
     sizes: [34, 35, 36, 37, 38, 39, 40],
     tags: ['platform', 'everyday', 'leather'],
@@ -402,7 +404,7 @@ export const PRODUCTS_DATA = [
     price: 449.99,
     salePrice: 359.99,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Puma%0ARebound+V6+Low',
+      'https://ebbies.co.za/wp-content/uploads/2025/11/puma__pum-404394-01__sideview01-570x570.png',
     colors: ['white', 'navy'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['retro', 'low-top', 'everyday'],
@@ -420,7 +422,7 @@ export const PRODUCTS_DATA = [
     price: 549.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Puma%0ASuede+Classic+XXI',
+      'https://nahmias.com/cdn/shop/files/407025_01_sv01.png?v=1770851891&width=2000',
     colors: ['black', 'white', 'red'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['suede', 'classic', 'hip hop'],
@@ -437,7 +439,8 @@ export const PRODUCTS_DATA = [
     gender: 'unisex',
     price: 599.99,
     salePrice: 499.99,
-    image: 'https://placehold.co/600x600/111827/ffffff/png?text=Puma%0APalermo',
+    image:
+      'https://newcop.com/cdn/shop/files/newcop-puma-mujer-palermo-premium-black-white-gum-zapatillas-1.png?v=1780227616',
     colors: ['green', 'white', 'cream'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['terrace', 'retro', 'suede'],
@@ -455,7 +458,7 @@ export const PRODUCTS_DATA = [
     price: 699.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Puma%0ASpeedcat+OG',
+      'https://juicysneakers.com.br/cdn/shop/files/PUMA-SPEEDCAT-OG-RED-JUICY-SNEAKERS1.webp?v=1733700974',
     colors: ['black', 'red'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['motorsport', 'slim', 'retro'],
@@ -466,14 +469,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 27,
-    name: 'Velocity Nitro 3',
+    name: 'Fast-R Nitro Elite 3',
     brand: 'Puma',
     category: 'running',
     gender: 'male',
     price: 799.99,
     salePrice: 639.99,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Puma%0AVelocity+Nitro+3',
+      'https://www.therunnersshop.com/cdn/shop/files/312060_15_sv01.png?v=1788878358&width=1080',
     colors: ['blue', 'black', 'yellow'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['nitro', 'daily trainer', 'road running'],
@@ -484,14 +487,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 28,
-    name: 'Deviate Nitro 3',
+    name: 'Deviate Nitro 4',
     brand: 'Puma',
     category: 'running',
     gender: 'female',
     price: 1199.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Puma%0ADeviate+Nitro+3',
+      'https://www.therunnersshop.com/cdn/shop/files/377749_22_sv01.png?v=1739921201&width=1080',
     colors: ['white', 'pink'],
     sizes: [34, 35, 36, 37, 38, 39, 40],
     tags: ['carbon plate', 'racing', 'road running'],
@@ -508,7 +511,8 @@ export const PRODUCTS_DATA = [
     gender: 'male',
     price: 799.99,
     salePrice: 639.99,
-    image: 'https://placehold.co/600x600/b45309/ffffff/png?text=Puma%0AMB.03',
+    image:
+      'https://www.sneakerjagers.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F366620%2Fpuma-mb03-team-regal-red-team-bank-pack.jpg&w=3840&q=75',
     colors: ['black', 'green', 'purple'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['lamelo ball', 'guard', 'court'],
@@ -519,14 +523,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 30,
-    name: 'All-Pro Nitro',
+    name: 'All-Pro Nitro 2',
     brand: 'Puma',
     category: 'basketball',
     gender: 'male',
     price: 649.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Puma%0AAll-Pro+Nitro',
+      'https://www.courtsidemelbourne.com/cdn/shop/files/media_145a0b87-9e5c-4351-b04d-a33de539de02.png?crop=center&height=3000&v=1786946150&width=3000',
     colors: ['white', 'blue'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['nitro', 'court', 'cushioned'],
@@ -544,7 +548,7 @@ export const PRODUCTS_DATA = [
     price: 649.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=New+Balance%0A574',
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F74464%2Fstone-island-x-new-balance-574-legacy-light-green.jpg&w=3840&q=100',
     colors: ['grey', 'navy'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['classic', 'suede', 'everyday'],
@@ -562,7 +566,7 @@ export const PRODUCTS_DATA = [
     price: 599.99,
     salePrice: 499.99,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=New+Balance%0A480',
+      'https://www.sneakerjagers.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F387965%2Fnew-balance-480-black-grey.jpg&w=3840&q=100',
     colors: ['white', 'beige'],
     sizes: [34, 35, 36, 37, 38, 39, 40],
     tags: ['retro', 'low-top', 'leather'],
@@ -580,7 +584,7 @@ export const PRODUCTS_DATA = [
     price: 799.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=New+Balance%0A550',
+      'https://juicysneakers.com.br/cdn/shop/files/new-balance-550-white-black-rain-cloud-1.webp?v=1745250489',
     colors: ['white', 'green', 'grey'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['retro', 'basketball-inspired', 'leather'],
@@ -598,7 +602,7 @@ export const PRODUCTS_DATA = [
     price: 999.99,
     salePrice: 899.99,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=New+Balance%0A9060',
+      'https://juicysneakers.com.br/cdn/shop/files/new-balance-9060-black-white-1.webp?v=1745281596',
     colors: ['grey', 'black', 'cream'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['chunky', 'y2k', 'cushioned'],
@@ -609,14 +613,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 35,
-    name: 'Fresh Foam X 1080v13',
+    name: '904L',
     brand: 'New Balance',
-    category: 'running',
+    category: 'streetwear',
     gender: 'male',
     price: 1299.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=New+Balance%0AFresh+Foam+X+1080v13',
+      'https://www.lisabonastreetwear.es/cdn/shop/files/New-Balance-204L-Mushroom-Arid-Stone_f79b5618.png?v=1757359729',
     colors: ['black', 'white'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['max cushion', 'long run', 'road running'],
@@ -627,14 +631,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 36,
-    name: 'Fresh Foam X 880v14',
+    name: '1906R',
     brand: 'New Balance',
-    category: 'running',
+    category: 'streetwear',
     gender: 'female',
     price: 999.99,
     salePrice: 849.99,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=New+Balance%0AFresh+Foam+X+880v14',
+      'https://newcop.com/cdn/shop/articles/1906-white-black-01_1.webp?v=1792591969',
     colors: ['white', 'blue'],
     sizes: [34, 35, 36, 37, 38, 39, 40],
     tags: ['daily trainer', 'neutral', 'road running'],
@@ -645,14 +649,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 37,
-    name: 'FuelCell Rebel v4',
+    name: 'FuelCell Rebel v2',
     brand: 'New Balance',
     category: 'running',
     gender: 'male',
     price: 899.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=New+Balance%0AFuelCell+Rebel+v4',
+      'https://www.fit2run.com/cdn/shop/files/MFCXLV5_3.0.png?v=1766155867&width=1200',
     colors: ['yellow', 'black'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['lightweight', 'responsive', 'tempo'],
@@ -663,14 +667,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 38,
-    name: 'FuelCell SuperComp Elite v4',
+    name: 'FuelCell SuperComp Elite v5',
     brand: 'New Balance',
     category: 'running',
     gender: 'unisex',
     price: 1799.99,
     salePrice: 1499.99,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=New+Balance%0AFuelCell+SuperComp+Elite+v4',
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F68034%2Fnew-balance-fuelcell-supercomp-elite-v5-blue.jpg&w=3840&q=100',
     colors: ['white', 'orange'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['carbon plate', 'racing', 'marathon'],
@@ -688,7 +692,7 @@ export const PRODUCTS_DATA = [
     price: 699.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=New+Balance%0ATWO+WXY+v4',
+      'https://img.area02.com/node/slideshow/m/slides_16387_1718619608433.webp',
     colors: ['black', 'white'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['court', 'lightweight', 'performance'],
@@ -706,7 +710,7 @@ export const PRODUCTS_DATA = [
     price: 799.99,
     salePrice: 639.99,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=New+Balance%0AKawhi+4',
+      'https://img.area02.com/node/slideshow/m/slides_15002_1706671577312.webp',
     colors: ['grey', 'black'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['kawhi leonard', 'wing', 'court'],
@@ -724,7 +728,7 @@ export const PRODUCTS_DATA = [
     price: 449.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Reebok%0AClub+C+85',
+      'https://juicysneakers.com.br/cdn/shop/files/reebok-club-c-harry-potter-hogwarts-preto-marrom_1.webp?v=1760731675&width=300',
     colors: ['white', 'green'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['tennis', 'classic', 'leather'],
@@ -742,7 +746,7 @@ export const PRODUCTS_DATA = [
     price: 399.99,
     salePrice: 319.99,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Reebok%0AClassic+Leather',
+      'https://i5.walmartimages.com/seo/REEBOK-MENS-Classic-Leather-Unisex-Navy-GY3600-GY3600-from-Stadium-Goods_0ec95309-ba9f-4386-a2e5-0a12ab13e3a9.79a80a9ea37e186708376cb25f5a86cc.png',
     colors: ['white', 'grey', 'black'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['retro', 'everyday', 'leather'],
@@ -760,7 +764,7 @@ export const PRODUCTS_DATA = [
     price: 349.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Reebok%0ACourt+Advance',
+      'https://i5.walmartimages.com/seo/REEBOK-WOMENS-COURT-ADVANCE-BOLD-WMNS-Black-GW2090-from-Stadium-Goods_48e18df2-2331-4321-96d2-28572597db1e.c3d96348eb7960d00c1e60a839346d36.png',
     colors: ['white', 'pink'],
     sizes: [34, 35, 36, 37, 38, 39, 40],
     tags: ['court style', 'everyday', 'budget'],
@@ -778,7 +782,7 @@ export const PRODUCTS_DATA = [
     price: 999.99,
     salePrice: 849.99,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Reebok%0AInstapump+Fury+94',
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F384065%2Fbeams-x-reebok-instapump-fury-94-white-pure-grey.jpg&w=3840&q=100',
     colors: ['black', 'white'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['retro', 'futuristic', 'sock-like'],
@@ -796,7 +800,7 @@ export const PRODUCTS_DATA = [
     price: 549.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Reebok%0AClassic+Leather+Legacy+AZ',
+      'https://i5.walmartimages.com/seo/REEBOK-GRADE-SCHOOL-Classic-Leather-Legacy-Clay-Tint-FY7597-from-Stadium-Goods_efb2498a-65cb-475b-8867-2de19d6ef418.88ebaedafbc9e15bdee4f09d8712a71a.png',
     colors: ['white', 'blue'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['retro', 'chunky', 'leather'],
@@ -814,7 +818,7 @@ export const PRODUCTS_DATA = [
     price: 499.99,
     salePrice: 399.99,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Reebok%0AWorkout+Plus',
+      'https://www.sneakerjagers.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F416390%2Freebok-workout-plus-brown.jpg&w=3840&q=100',
     colors: ['white', 'grey'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['retro', 'gym heritage', 'leather'],
@@ -825,14 +829,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 47,
-    name: 'Floatride Energy 5',
+    name: 'Floatride Energy 5 Adventure',
     brand: 'Reebok',
     category: 'running',
     gender: 'male',
     price: 499.99,
     salePrice: 399.99,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Reebok%0AFloatride+Energy+5',
+      'https://i5.walmartimages.com/seo/REEBOK-WOMENS-Floatride-Energy-5-Adventure-WMNS-Green-HQ9062-from-Stadium-Goods_145de8b9-f54e-45d3-be0f-0f3a8476c6b6.a1a41d33f99aa8cc22ca19accc3656ff.png',
     colors: ['black', 'blue'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['budget', 'daily trainer', 'road running'],
@@ -849,8 +853,7 @@ export const PRODUCTS_DATA = [
     gender: 'male',
     price: 899.99,
     salePrice: null,
-    image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Reebok%0AQuestion+Mid',
+    image: 'https://i.ebayimg.com/images/g/2rkAAOSwXW9gHtaZ/s-l1200.png',
     colors: ['white', 'blue'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['allen iverson', 'retro', 'high-top'],
@@ -868,7 +871,7 @@ export const PRODUCTS_DATA = [
     price: 999.99,
     salePrice: 849.99,
     image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Reebok%0AAnswer+IV',
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F271780%2Freebok-answer-iv-core-black.jpg&w=3840&q=75',
     colors: ['black', 'gold'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['allen iverson', 'retro', 'mid-top'],
@@ -885,8 +888,7 @@ export const PRODUCTS_DATA = [
     gender: 'male',
     price: 899.99,
     salePrice: null,
-    image:
-      'https://placehold.co/600x600/b45309/ffffff/png?text=Reebok%0AShaq+Attaq',
+    image: 'https://static.clickwire.io/294744/reebok-shaq-attaq-blacktop.jpg',
     colors: ['white', 'red'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['shaq', 'retro', 'high-top'],
@@ -897,14 +899,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 51,
-    name: 'Japan S',
+    name: 'Japan S Pro',
     brand: 'Asics',
     category: 'casual',
     gender: 'unisex',
     price: 599.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Asics%0AJapan+S',
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F312796%2Fasics-japan-s-pro-black-white.jpg&w=3840&q=100',
     colors: ['white', 'navy'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['retro', 'everyday', 'leather'],
@@ -922,7 +924,7 @@ export const PRODUCTS_DATA = [
     price: 799.99,
     salePrice: 679.99,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Asics%0AGel-Lyte+III+OG',
+      'https://img.area02.com/node/slideshow/m/slides_12895_1693362689372.webp',
     colors: ['grey', 'blue'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['split tongue', 'retro', 'suede'],
@@ -940,7 +942,7 @@ export const PRODUCTS_DATA = [
     price: 699.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/374151/ffffff/png?text=Asics%0ASkyhand+OG',
+      'https://images.asics.com/is/image/asics/1203A451_021_SL_LT_GLB?$product$&fmt=png-alpha',
     colors: ['cream', 'green'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['retro', 'basketball-inspired', 'leather'],
@@ -958,7 +960,7 @@ export const PRODUCTS_DATA = [
     price: 1099.99,
     salePrice: 949.99,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Asics%0AGel-Kayano+14',
+      'https://cdn.shopify.com/s/files/1/2358/2817/files/asics-gel-kayano-14-cream-black-metallic-plum-1.png?v=1686821983',
     colors: ['silver', 'white', 'blue'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['y2k', 'chunky', 'metallic'],
@@ -976,7 +978,7 @@ export const PRODUCTS_DATA = [
     price: 799.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Asics%0AGel-1130',
+      'https://www.theatticstreetwear.com/cdn/shop/files/ASICS_Gel-1130_White_Dusty_Purple_Women_s_the_attic.png?v=1761642906&width=2048',
     colors: ['white', 'silver'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['y2k', 'retro runner', 'mesh'],
@@ -994,7 +996,7 @@ export const PRODUCTS_DATA = [
     price: 899.99,
     salePrice: 769.99,
     image:
-      'https://placehold.co/600x600/111827/ffffff/png?text=Asics%0AGel-NYC',
+      'https://newcop.com/cdn/shop/files/newcop-asics-gel-nyc-graphite-grey-black-zapatillas-1.webp?height=1500&v=1780228509',
     colors: ['cream', 'grey', 'black'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['y2k', 'retro runner', 'cushioned'],
@@ -1012,7 +1014,7 @@ export const PRODUCTS_DATA = [
     price: 1399.99,
     salePrice: 1099.99,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Asics%0AGel-Nimbus+26',
+      'https://assets.footlocker.com/is/image/FLDM/2B753702_02?$tile500jpg$=true&fmt=png-alpha',
     colors: ['black', 'blue'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['max cushion', 'neutral', 'long run'],
@@ -1030,7 +1032,7 @@ export const PRODUCTS_DATA = [
     price: 999.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Asics%0ANovablast+4',
+      'https://www.offtrendclub.com/cdn/shop/files/1011B693-002-1.png?v=1737763064&width=480',
     colors: ['pink', 'white', 'purple'],
     sizes: [34, 35, 36, 37, 38, 39, 40],
     tags: ['bouncy', 'daily trainer', 'road running'],
@@ -1041,14 +1043,14 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 59,
-    name: 'Gel-Cumulus 26',
+    name: 'Gel NYC 2.0',
     brand: 'Asics',
     category: 'running',
     gender: 'male',
     price: 799.99,
     salePrice: 649.99,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Asics%0AGel-Cumulus+26',
+      'https://thedropdate.com/_next/image?url=https%3A%2F%2Fstatic.clickwire.io%2F64135%2Fasics-gel-nyc-20-umeboshi-moonrock.jpg&w=3840&q=100',
     colors: ['grey', 'orange'],
     sizes: [38, 39, 40, 41, 42, 43, 44, 45, 46],
     tags: ['daily trainer', 'neutral', 'road running'],
@@ -1066,7 +1068,7 @@ export const PRODUCTS_DATA = [
     price: 1499.99,
     salePrice: null,
     image:
-      'https://placehold.co/600x600/0f766e/ffffff/png?text=Asics%0ASuperblast+2',
+      'https://sneak.ee/cdn/shop/files/Sneak-ASICS-Superblast-2-Wave-Teal-Illuminate-Mint-1.webp?v=1753570799&width=2048',
     colors: ['yellow', 'black'],
     sizes: [36, 37, 38, 39, 40, 41, 42, 43, 44],
     tags: ['max cushion', 'lightweight', 'long run'],

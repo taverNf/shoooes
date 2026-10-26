@@ -1,4 +1,7 @@
 #header {
+  position: sticky;
+  top: 0;
+
   width: 100%;
   min-height: 10vh;
   padding: 1rem 3rem;
@@ -6,6 +9,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background-color: #fffc;
+  backdrop-filter: blur(1px);
 }
 
 #logo,
@@ -57,11 +63,14 @@
 
     font-size: 1.25rem;
 
+    background-color: transparent;
     border: none;
     outline: none;
+
+    transition: background-color .5s;
     
     &::placeholder {
-      color: #777;
+      color: #7779;
       transition: color 0.5s;
     }
   }
@@ -84,8 +93,12 @@
       background-color: #000;
     }
     
-    & input::placeholder {
-      color: #aaa;
+    & input {
+      background-color: #fff;
+
+      &::placeholder {
+        color: #aaa;
+      }
     }
   }
   
@@ -96,8 +109,12 @@
       background-color: #000;
     }
     
-    & input::placeholder {
-      color: #aaa;
+    & input {
+      background-color: #fff;
+
+      &::placeholder {
+        color: #aaa;
+      }
     }
   }
 }
