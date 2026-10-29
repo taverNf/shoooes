@@ -829,7 +829,7 @@ export const PRODUCTS_DATA = [
   },
   {
     id: 47,
-    name: 'Floatride Energy 5 Adventure',
+    name: 'Floatride Energy 5',
     brand: 'Reebok',
     category: 'running',
     gender: 'male',

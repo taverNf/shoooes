@@ -11,10 +11,12 @@ export default function Products({ searchFilter }) {
     return isFilteredProduct
   })
 
+  const filterClassName = FILTERED_PRODUCTS.length != PRODUCTS_DATA.length
+
   return (
     <section>
       <h2 id="pageTitle">Produtos</h2>
-      <ul>
+      <ul className={filterClassName && 'searching'}>
         {FILTERED_PRODUCTS.map(product => <Card key={product.id} {...product} />)}
       </ul>
     </section>

@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom'
 import './Card.css'
 
-export default function Card({ brand, name, price, salePrice, isInStock, image }) {
+export default function Card({ id, brand, name, price, salePrice, isInStock, image }) {
   const priceFormatado = salePrice
     ? salePrice.toString().replace('.', ',')
     : price.toString().replace('.', ',')
@@ -24,7 +25,9 @@ export default function Card({ brand, name, price, salePrice, isInStock, image }
           {isInStock && (
             <>
               <p id="price" className={salePrice ? 'outlined sale' : 'outlined'}>R$ {priceFormatado}</p>
-              <button id="seeMore">Ver Detalhes</button>
+              <Link to={`/produto/${id}`} id="seeMore">
+                Ver detalhes
+              </Link>
             </>
           )}
           {!isInStock && <p id="unavailable" className="outlined">Produto sem estoque</p>}

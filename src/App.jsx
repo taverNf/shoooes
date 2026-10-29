@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Header'
-import './App.css'
 import Products from './components/Products'
+import './App.css'
 
 function App() {
   const [searchFilter, setSearchFilter] = useState('')
