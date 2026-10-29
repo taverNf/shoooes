@@ -7,7 +7,8 @@ export default function Products({ searchFilter }) {
     if (!searchFilter) {return product}
     const isFilteredProduct =
       product.name.toLowerCase().includes(searchFilter.toLowerCase().trim()) ||
-      product.brand.toLowerCase().includes(searchFilter.toLowerCase().trim())
+      product.brand.toLowerCase().includes(searchFilter.toLowerCase().trim()) ||
+      product.colors.includes(searchFilter.toLowerCase().trim())
     return isFilteredProduct
   })
 

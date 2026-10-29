@@ -22,6 +22,7 @@ export default function ProductDetails() {
 
   const installmentPrice = product.salePrice ? product.salePrice / 12 : product.price / 12
   const formatedInstallmentPrice = installmentPrice.toFixed(2).toString().replace(".", ",")
+  
 
   // FUNÇÕES
   function handleSumQuantity() {
@@ -34,12 +35,21 @@ export default function ProductDetails() {
     setQuantity(prev => prev - 1)
   }
 
+  function checkColors(color) {
+    if (color === "gum") {const newColor = "pink"; return newColor}
+    if (color === "cream") {const newColor = "beige"; return newColor}
+    return color
+  }
+
+  // INTERFACE
   return (
     <>
       <Header />
       <main>
         <section id="imgColumn">
-          <img src={product.image} alt="" />
+          <div id="imgBox">
+            <img src={product.image} alt="" />
+          </div>
         </section>
 
         <section id="detailsColumn">
@@ -75,7 +85,16 @@ export default function ProductDetails() {
           <div id="colorsBox" className="detailsBox">
             <h4>Cores disponíveis:</h4>
             <ul id="colorList" className="detailsList">
-              {product.colors.map(color => <li key={color} id="color" className="detailsListItem"> <div id="ball" style={{backgroundColor:color}}></div> {color}</li>)}
+              {product.colors.map(color => {
+                const checkedColor = checkColors(color)
+
+                return (
+                  <li key={color} id="color" className="detailsListItem">
+                    <div id="ball" style={{ backgroundColor: checkedColor }}></div>
+                    {color}
+                  </li>
+                )
+              })}
             </ul>
           </div>
 

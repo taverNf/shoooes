@@ -1,6 +1,7 @@
 section {
   margin: 5rem auto;
   width: 90%;
+  padding: 0 3rem;
 }
 
 h2 {
@@ -11,12 +12,8 @@ ul{
   margin-top: 2rem;
 
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: start;
+  align-items: stretch;
   flex-wrap: wrap;
-  gap: 2rem 3rem;
-
-  /* &.searching {
-    justify-content: start;
-  } */
+  gap: 2rem;
 }

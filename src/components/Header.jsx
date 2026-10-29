@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Search, User, ShoppingCart } from 'lucide-react'
-import './Header.css'
 import { Link } from 'react-router-dom'
+import Logo from '../images/logo.png'
+import './Header.css'
 
 export default function Header({ onSearch }) {
   const [logged, setLogged] = useState(false)
@@ -19,11 +20,7 @@ export default function Header({ onSearch }) {
   return (
     <header id="header">
       <Link to={'/'} id="logoContainer">
-        <h3 id="logo">
-          sh <span id="color1">o</span>
-          <span id="color2">o</span>
-          <span id="color3">oe</span> s
-        </h3>
+        <img src={Logo} alt="Logo" id="logo" />
       </Link>
 
       <nav id="nav">

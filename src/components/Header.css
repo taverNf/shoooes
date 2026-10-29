@@ -1,5 +1,6 @@
 #header {
   position: sticky;
+  z-index: 1;
   top: 0;
 
   width: 100%;
@@ -16,29 +17,11 @@
 
 #logoContainer {
   text-decoration: none;
-}
 
-#logo,
-#logo > * {
-  display: flex;
-  
-  font-family: 'Boldonse', Anton, Impact;
-  font-size: 1.75rem;
-  
-  color: #333;
-  
-  cursor: pointer;
-  
-  & #color1 {
-    color: #6b3d30;
-  }
-  
-  & #color2 {
-    color: #ad5137;
-  }
-  
-  & #color3 {
-    color: #e7623e;
+  & #logo {
+    height: 100%;
+    width: 120px;
+    object-fit: contain;
   }
 }
 
