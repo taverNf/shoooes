@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Header onSearch={handleSearch} />
+      <Header onSearch={handleSearch} searchBar />
       <Products searchFilter={searchFilter} />
     </>
   )

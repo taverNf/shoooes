@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../images/logo.png'
 import './Header.css'
 
-export default function Header({ onSearch }) {
+export default function Header({ searchBar, onSearch }) {
   const [logged, setLogged] = useState(false)
   const [search, setSearch] = useState('')
 
@@ -29,7 +29,8 @@ export default function Header({ onSearch }) {
             Limpar
           </button>
         )}
-        <div id="searchBox">
+        {searchBar && (
+          <div id="searchBox">
           <input
             type="text"
             placeholder="Pesquise alguma coisa"
@@ -43,6 +44,8 @@ export default function Header({ onSearch }) {
             onClick={() => onSearch(search)}
           />
         </div>
+        )}
+        
 
         {logged ? (
           <div id="buttonBox">
