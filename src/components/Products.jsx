@@ -1,6 +1,6 @@
 import { PRODUCTS_DATA } from "../utils/data.js"
-import './Products.css'
 import Card from "./Card.jsx"
+import './Products.css'
 
 export default function Products({ searchFilter }) {
   const FILTERED_PRODUCTS = PRODUCTS_DATA.filter((product) => {
