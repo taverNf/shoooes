@@ -1080,3 +1080,19 @@ export const PRODUCTS_DATA = [
     isFavorite: false,
   },
 ]
+
+export const CHARACTERS = {
+  letters: [
+    ..."abcdefghijklmnopqrstuvwxyz".split(""),
+    ..."ABCDEFGHIJKLMNOPQRSTUVWXYZ".split(""),
+  ],
+
+  numbers: "0123456789".split(""),
+
+  special: [
+    " ",
+    "`", "~", "!", "@", "#", "$", "%", "^", "&", "*",
+    "(", ")", "-", "_", "=", "+", "[", "]", "{", "}", "\\", "|",
+    ";", ":", "'", "\"", ",", ".", "<", ">", "/", "?",
+  ],
+}

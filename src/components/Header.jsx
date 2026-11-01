@@ -32,6 +32,7 @@ export default function Header({ searchBar, onSearch }) {
             <input
               type="text"
               placeholder="Pesquise alguma coisa"
+              id="searchInput"
               value={search}
               onChange={e => setSearch(e.target.value)}
             />

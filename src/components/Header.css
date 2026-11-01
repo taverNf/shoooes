@@ -52,7 +52,7 @@
   overflow: hidden;
   transition: border-color 0.5s;
 
-  & input {
+  & #searchInput {
     padding: 0.5rem 1rem;
 
     font-size: 1.25rem;
@@ -87,7 +87,7 @@
       background-color: #000;
     }
 
-    & input {
+    & #searchInput {
       background-color: #fff;
 
       &::placeholder {
@@ -96,14 +96,14 @@
     }
   }
 
-  &:has(input:focus) {
+  &:has(#searchInput:focus) {
     border-color: #000;
 
     & .icon {
       background-color: #000;
     }
 
-    & input {
+    & #searchInput {
       background-color: #fff;
 
       &::placeholder {
