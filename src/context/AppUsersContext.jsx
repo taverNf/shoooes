@@ -68,7 +68,7 @@ export const AppUsersProvider = ({ children }) => {
 
   function handleLogout() {
     const confirmed = confirm("deseja sair sua conta?")
-    if (confirmed) { alert("você saiu da sua conta"); setCurrentUser(null); return }
+    if (confirmed) { alert(`até mais, ${currentUser.username}!`); setCurrentUser(null); return }
   }
 
   return <AppUsersContext.Provider value={{ appUsers, handleCreateUser, handleLogin, handleLogout, currentUser }} >{children}</AppUsersContext.Provider>

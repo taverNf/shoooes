@@ -72,7 +72,7 @@ export default function SignUp() {
   return (
     <>
       <Header />
-      <main>
+      <main id="signContent">
         <div className="title">
           <h1>Crie uma conta</h1>
           <h3>

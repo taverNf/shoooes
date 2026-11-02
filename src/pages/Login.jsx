@@ -44,7 +44,7 @@ export default function Login() {
   return (
     <>
       <Header />
-      <main>
+      <main id="signContent">
         <div className="title">
           <h1>Entre em sua conta</h1>
           <h3>Ainda não tem uma? <Link to={'/signup'}>Clique aqui para criar</Link></h3>
