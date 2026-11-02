@@ -6,13 +6,21 @@ import Logo from '../images/logo.png'
 import './Header.css'
 
 export default function Header({ searchBar, onSearch }) {
+  const { currentUser, handleLogout } = useContext(AppUsersContext)
+
   const [search, setSearch] = useState('')
 
-  const { currentUser } = useContext(AppUsersContext)
+  const [showingOptions, setShowingOptions] = useState(false)
+
+  // const cartLength = currentUser ? currentUser.cart.items.length : null
 
   function handleClearSearch() {
     setSearch('')
     onSearch('')
+  }
+
+  function handleToggleOptions() {
+    setShowingOptions(prev => !prev)
   }
 
   return (
@@ -45,16 +53,25 @@ export default function Header({ searchBar, onSearch }) {
           </div>
         )}
 
-        {currentUser.username ? (
-          <div id="buttonBox">
+        <div id="buttonBox">
+          <div id="cart">
+            {/* {cartLength > 0 && <p>{cartLength}</p>} */}
             <ShoppingCart strokeWidth={1.5} color={'#333'} className="icon" />
-            <User strokeWidth={1.5} color={'#333'} className="icon" />
           </div>
-        ) : (
-          <Link id="login" to={'/login'}>
-            Entrar
-          </Link>
-        )}
+
+          {currentUser &&
+              <div id="user" onClick={handleToggleOptions}>
+                <User strokeWidth={1.5} color={'#333'} className="icon" />      
+                <p className="username">{currentUser.username}</p>
+                {showingOptions &&
+                  <div id="userOptions">
+                    <button id="logout" onClick={handleLogout}>Sair</button>
+                  </div>
+                }
+              </div>
+          }
+          {!currentUser && <Link id="login" to={'/login'}>Entrar</Link>}
+        </div>
       </nav>
     </header>
   )

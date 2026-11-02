@@ -1,24 +1,24 @@
-import { createContext, useState } from 'react'
+import { createContext, useEffect, useState } from 'react'
 
 export const AppUsersContext = createContext()
 
 export const AppUsersProvider = ({ children }) => {
-  const [appUsers, setAppUsers] = useState([
-    {
-      id: 1,
-      username: 'juReigota',
-      email: 'jureigota10@gmail.com',
-      password: '23',
-      cart: {
-        items: [],
-        totalPrice: 0,
-      },
-      favorites: [],
-    },
-  ])
-  const [currentUser, setCurrentUser] = useState({})
+  const [appUsers, setAppUsers] = useState(JSON.parse(localStorage.getItem('appUsers')) || [])
+
+  useEffect(() => {
+    localStorage.setItem('appUsers', JSON.stringify(appUsers)),
+    [appUsers]
+  })
+
+  const [currentUser, setCurrentUser] = useState(JSON.parse(localStorage.getItem('currentUser')) || null)
+
+  useEffect(() => {
+    localStorage.setItem('currentUser', JSON.stringify(currentUser)),
+    [currentUser]
+  })
 
   function handleCreateUser(username, email, password) {
+    if (!username.trim() || !email.trim() || !password.trim()) { alert("preencha todos os campos"); return }
     if (appUsers.find(user => user.email === email)) { alert(`o email "${email}" já possui uma conta cadastrada.`); return }
     if (appUsers.find(user => user.username === username)) { alert(`o username "${username}" já existe.`); return }
 
@@ -48,7 +48,7 @@ export const AppUsersProvider = ({ children }) => {
   }
 
   function handleLogin(reqUser) {
-    if (!reqUser.email || !reqUser.password){ alert('preencha os campos'); return }
+    if (!reqUser.email || !reqUser.password){ alert('preencha todos os campos'); return }
 
     const userIndex = appUsers.findIndex(user => user.email === reqUser.email)
 
@@ -66,5 +66,10 @@ export const AppUsersProvider = ({ children }) => {
     return true
   }
 
-  return <AppUsersContext.Provider value={{ appUsers, handleCreateUser, handleLogin, currentUser }} >{children}</AppUsersContext.Provider>
+  function handleLogout() {
+    const confirmed = confirm("deseja sair sua conta?")
+    if (confirmed) { alert("você saiu da sua conta"); setCurrentUser(null); return }
+  }
+
+  return <AppUsersContext.Provider value={{ appUsers, handleCreateUser, handleLogin, handleLogout, currentUser }} >{children}</AppUsersContext.Provider>
 }
